@@ -1,4 +1,5 @@
 function Armstrong(num){
+  let OriginalNum = num;
     let result=[];
     let index=0;
     let add=0;
@@ -10,14 +11,13 @@ function Armstrong(num){
     }
 
     for(let i=result.length-1; i >=0 ; i--){
-      let orignalNo=result[i];
       let sqaure= result[i] ** result.length;
       add = add + sqaure;
       
     }
     
-    num == orignalNo ? console.log(num+ " is armstrong No ") :console.log(num+ " is not armstrong number "); 
-    console.log(add);
+    add == OriginalNum ? console.log(OriginalNum + " is armstrong No ") : console.log(OriginalNum + " is not armstrong number "); 
+  
 };
 
 
