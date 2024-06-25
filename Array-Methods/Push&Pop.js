@@ -31,5 +31,11 @@ for (let i = 0; i <= 6 ; i++) {
 }
 console.log(randomNo);
 
+// 4.
+let number = [ 1, 3, 14, 56 , 36 ];
+while (number.length > 0) {
+   let deleted= number.pop();
+   console.log(deleted);
+}
 
 
