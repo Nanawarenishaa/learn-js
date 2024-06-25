@@ -1,4 +1,4 @@
-
+// ++++++++++ unshift() ++++++++++++
 
 // 1.
 // let num = [ 4,5,6 ];
@@ -13,8 +13,7 @@
 // console.log(counts);
 
 // 3.
-let arr = [ [ 3, 4 ] , [ 5, 6 ] ,[ 1, 2 ] ] ;
-let arr2 = arr.pop();
-arr.unshift(arr2);
-console.log(arr);
-
+// let arr = [ [ 3, 4 ] , [ 5, 6 ] ,[ 1, 2 ] ] ;
+// let arr2 = arr.pop();
+// arr.unshift(arr2);
+// console.log(arr);
