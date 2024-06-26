@@ -30,3 +30,4 @@ let product = [
 let expensive= product.find( ele => ele.price > 700);
 console.log(expensive);
 
+
