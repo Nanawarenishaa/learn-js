@@ -13,7 +13,9 @@ const ProductPage = () => {
     const priceRange = price === "" || book.price <= price;
     const genreSearch = genre === "" || book.genre.toLowerCase().includes(genre.toLowerCase());
     const ratingRange = book.rating <= rating;
-    return matchesSearch && priceRange && genreSearch && ratingRange;
+
+
+    return matchesSearch && priceRange && genreSearch && ratingRange && addNew;
   });
 
   const sortedData = filteredData.sort((a, b) => {
@@ -25,9 +27,14 @@ const ProductPage = () => {
     }
     return 0;
   });
+  const addNew = () => {
+    const newBook = { title: "New Book", author: "New Author", year: 2024, genre: "New Genre", price: 20, rating: 4, pages: 300 };
+    BookData.push(newBook);
+    filterBooks(); 
+  };
 
   return (
-    <div className="w-full min-h-screen flex bg-gray-900 text-white">
+    <div className="w-full min-h-screen flex bg-gray-900 text-pink-400">
       <div className=" w-[34%] sm:w-[25%]  h-screen bg-gray-800 p-4">
         <h1 className="text-2xl font-bold mb-4">Book List</h1>
         <div className="mb-4">
@@ -78,6 +85,14 @@ const ProductPage = () => {
             >
               Sort Descending
             </button>
+            
+            <button
+              onClick={() => AddNew()}
+              className="px-4 py-2 bg-cyan-500 hover:bg-cyan-600 text-white font-bold rounded"
+            >
+            Add new
+            </button>
+
           </div>
         </div>
       </div>
@@ -97,7 +112,7 @@ const ProductPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4">
           {sortedData.map((book, index) => (
             <div
-              className="border border-gray-700 rounded-md p-4 bg-indigo-800 hover:bg-indigo-600 transition duration-300"
+              className="border border-gray-700 rounded-md p-4 bg-violet-950 hover:bg-violet-700 transition duration-300"
               key={index}
             >
               <h2 className="text-xl font-bold">Title: {book.title}</h2>
