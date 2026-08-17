@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="city-input">
+            <button id="get-weather-btn">Get weather</button>
+        </div>
+
+        <div class="hidden" id="weather-info">
+            <h2 id="city-name"></h2>
+            <h3 id="city-temperature"></h3>
+            <h4 id="city-description"></h4>
+        </div>
+       
+            <span class="hidden" id="error-msg">
+                city not found!! please try again..
+            </span>
+
+        
+
+    </div>
+<script type="module" src="./script.js"></script>
+</body>
+</html>

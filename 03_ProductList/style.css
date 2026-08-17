@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #010101;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2{
+    text-align: center;
+}
+.main-container{
+    width: 60%;
+    border: 1px solid rgb(65, 62, 62);
+     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 30px;
+    background: #121212;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+   position: relative;
+}
+#cartProducts{
+    margin-bottom: 4rem;
+}
+#product-list{
+   width: 100%;
+
+   
+    
+}
+#product-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #302e2e;
+    gap: 10px;
+    border-radius: 2px;
+   margin-bottom: 14px;
+    padding: 5px 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    
+}
+
+#product-list button{
+    background: #5a11ec;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 10px;
+     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+
+}
+#emptyCartMsg{
+    
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+#cart-total{
+    position: absolute;
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    bottom:10px;
+    right: 10px;
+    
+}
+#cart-total{
+    display: none;
+}
+#cart-total button{
+ background: #ee5214;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+ border: none;
+ padding: 8px 10px;
+ color: white;
+ border-radius: 2px;
+ font-weight: 600;
+ 
+}
+
+
