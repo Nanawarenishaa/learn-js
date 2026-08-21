@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    width: 450px;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    /* Shadow-lg */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Input Box */
+#inputBox {
+    display: flex;
+   
+    gap: 15px;
+}
+
+/* Inputs */
+#inputBox input {
+    width: 100%;
+    padding: 10px;
+
+    background: #2a2a2a;
+    color: #ffffff;
+
+    border: 1px solid #444;
+    border-radius: 8px;
+    outline: none;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+/* Placeholder */
+#inputBox input::placeholder {
+    color: #999;
+}
+
+/* Input Focus */
+#inputBox input:focus {
+    border-color: #bb86fc;
+
+    box-shadow: 0 0 10px rgba(187, 134, 252, 0.4);
+}
+
+/* Add Expense Button */
+#inputBox button {
+    padding: 13px;
+
+    background: #6603de;
+    color: #fffefe;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#inputBox button:hover {
+    background: #790bef;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 20px rgba(1, 1, 1, 0.5);
+}
+
+/* Expense List Item */
+li {
+    list-style: none;
+
+    margin-top: 20px;
+    padding:10px;
+
+    background: #252525;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Expense Text */
+li span {
+    color: #eeeeee;
+    font-size: 16px;
+}
+
+/* Delete Button */
+li button {
+    background: #d50416;
+    color: #ffffff;
+
+    border: none;
+    padding: 8px 14px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+li button:hover {
+    background: #ec103c;
+     box-shadow: 0 8px 20px rgba(1, 1, 1, 0.5);
+}
+
+p{
+    margin-top: 2rem;
+    font-size: large;
+}
+
+p span{
+    color: rgb(130, 240, 255);
+}
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
