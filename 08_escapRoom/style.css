@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 800px;
+    max-width: 95%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#message {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.room {
+    height: 450px;
+    background: #252525;
+    border: 3px solid #555;
+    border-radius: 15px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.object {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.object span {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.object:hover {
+    transform: scale(1.1);
+}
+
+.inventory {
+    margin-top: 20px;
+    padding: 15px;
+
+    background: #222;
+    border-radius: 10px;
+}
+
+.inventory h2 {
+    margin-bottom: 10px;
+}
+
+#inventoryItems {
+    color: #aaa;
+}
+
+.code-box {
+    margin-top: 20px;
+    padding: 20px;
+
+    background: #222;
+    border-radius: 10px;
+}
+
+.code-box input {
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+}
+
+.code-box button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

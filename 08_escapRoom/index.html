@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="game">
+
+        <h1>🔒 ESCAPE THE ROOM</h1>
+
+        <p id="message">
+            You are trapped! Find a way to escape...
+        </p>
+
+        <div class="room">
+
+            <button id="painting" class="object">
+                🖼️
+                <span>Painting</span>
+            </button>
+
+            <button id="table" class="object">
+                🪑
+                <span>Table</span>
+            </button>
+
+            <button id="box" class="object">
+                📦
+                <span>Locked Box</span>
+            </button>
+
+            <button id="door" class="object">
+                🚪
+                <span>Door</span>
+            </button>
+
+        </div>
+
+        <div class="inventory">
+            <h2>🎒 Inventory</h2>
+
+            <div id="inventoryItems">
+                Empty
+            </div>
+        </div>
+
+        <div id="codeBox" class="code-box hidden">
+
+            <h2>🔐 Enter the Code</h2>
+
+            <input
+                type="number"
+                id="codeInput"
+                placeholder="4 digit code"
+            >
+
+            <button id="unlockBtn">
+                Unlock
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
