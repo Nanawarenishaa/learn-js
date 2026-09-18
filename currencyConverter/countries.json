@@ -1,0 +1,87 @@
+[
+  {
+    "name": "United States",
+    "currency": "USD",
+    "countryCode": "US"
+  },
+  {
+    "name": "India",
+    "currency": "INR",
+    "countryCode": "IN"
+  },
+  {
+    "name": "European Union",
+    "currency": "EUR",
+    "countryCode": "EU"
+  },
+  {
+    "name": "Japan",
+    "currency": "JPY",
+    "countryCode": "JP"
+  },
+  {
+    "name": "United Kingdom",
+    "currency": "GBP",
+    "countryCode": "GB"
+  },
+  {
+    "name": "Australia",
+    "currency": "AUD",
+    "countryCode": "AU"
+  },
+  {
+    "name": "Canada",
+    "currency": "CAD",
+    "countryCode": "CA"
+  },
+  {
+    "name": "China",
+    "currency": "CNY",
+    "countryCode": "CN"
+  },
+  {
+    "name": "Switzerland",
+    "currency": "CHF",
+    "countryCode": "CH"
+  },
+  {
+    "name": "South Korea",
+    "currency": "KRW",
+    "countryCode": "KR"
+  },
+  {
+    "name": "Singapore",
+    "currency": "SGD",
+    "countryCode": "SG"
+  },
+  {
+    "name": "New Zealand",
+    "currency": "NZD",
+    "countryCode": "NZ"
+  },
+  {
+    "name": "Brazil",
+    "currency": "BRL",
+    "countryCode": "BR"
+  },
+  {
+    "name": "Mexico",
+    "currency": "MXN",
+    "countryCode": "MX"
+  },
+  {
+    "name": "South Africa",
+    "currency": "ZAR",
+    "countryCode": "ZA"
+  },
+  {
+    "name": "United Arab Emirates",
+    "currency": "AED",
+    "countryCode": "AE"
+  },
+  {
+    "name": "Saudi Arabia",
+    "currency": "SAR",
+    "countryCode": "SA"
+  }
+]
